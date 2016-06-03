@@ -8,7 +8,7 @@ module Ruboty
       )
 
       def hello(message)
-        Ruboty::Hello:Actions::Hello.new(message).call
+        Ruboty::Hello::Actions::Hello.new(message).call
       end
     end
   end
