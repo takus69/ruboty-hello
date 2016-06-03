@@ -1,7 +1,5 @@
 require "ruboty/hello/version"
 
-module Ruboty
-  module Hello
-    # Your code goes here...
-  end
-end
+require "ruboty"
+require "ruboty/handlers/hello"
+require "ruboty/hello/actions/hello"
